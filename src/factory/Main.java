@@ -2,13 +2,18 @@ package factory;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {	
 	
 	Clothes triko = Factory.getClothes("tshirt", "Addidas", "blue");
-	Clothes jeans = Factory.getClothes("jeans", "Peace", "black");
+	Clothes jeans = Factory.getClothes("JEANS", "Peace", "black");
 	
-	System.out.println(triko);
-	System.out.println(jeans);
+	if (triko != null) {
+	    System.out.println(triko);
+	}
+	if (jeans != null) {
+	    System.out.println(jeans);
+	}
+	
 
     }
 
