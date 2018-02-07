@@ -1,5 +1,7 @@
 package adapter;
 
+// AudioPlayer can play mp3, but cannot play vlc and mp4
+// Using MediaAdapter it can play mp3, vlc and mp4
 public class AudioPlayer implements MediaPlayer {
     
     MediaAdapter adapter;
