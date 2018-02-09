@@ -3,6 +3,12 @@ package observer;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 
+ * Observer pattern is used when there is one-to-many relationship between objects such as 
+ * if one object is modified, its dependent objects are notified automatically.
+ *
+ */
 public class WeatherStation implements Subject {
     
     private int temperature;
